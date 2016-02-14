@@ -1,0 +1,28 @@
+{
+  "name": "nativescript-canvas-interface",
+  "version": "0.0.1",
+  "description": "Nativescript Plugin for easy communication between web-view canvas element and native app",
+  "main": "index.js",
+  "nativescript": {}, 
+  "scripts": {
+    "tsc": "tsc -p . -w",
+    "postinstall": "node hooks/merge-www.js"
+  },
+  "keywords": [
+    "nativescript",
+    "web-view",
+    "canvas"
+  ],
+  "author": {
+    "name": "Shripal Soni",
+    "email": "shripalsoni04@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tns-core-modules": "^1.5.2",
+    "typescript": "^1.7.5"
+  },
+  "dependencies": {
+    "nativescript-webview-interface": "^1.0.3"
+  }
+}
