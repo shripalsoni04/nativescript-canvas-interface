@@ -8,7 +8,7 @@ tns plugin add nativescript-canvas-interface
 ```
 
 Once the plugin is installed, you need to copy plugin files for webView, into your webView content folder.
-e.g
+e.g.
 ```
 cp -r node_modules/nativescript-canvas-interface/www/ app/www/lib/
 ```
@@ -107,7 +107,7 @@ function registerNSCanvasReqHandlers(oCanvasInterface) {
 }
  
 function setCanvasImage(canvas, ctx, image){
-    // set image to canvas or do anyting you want.
+    // set image to canvas or do anything you want.
     ctx.drawImage(image, 0, 0, 100, 100);
 }
 
@@ -116,7 +116,7 @@ function setCanvasImage(canvas, ctx, image){
  * Once the promise is reslved or value is returned, the plugin will create an image 
  * from canvas context and pass it to native app.
  */ 
-function setBrightness(canvas, ctx){
+function setBrightness(canvas, ctx, value){
     return Promise(function(resolve, reject){
         // do image manipulation on canvas
         resolve();   
