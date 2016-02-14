@@ -1,9 +1,9 @@
 {
   "name": "nativescript-canvas-interface",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Nativescript Plugin to perform image manipulation using web-view canvas for Android/iOS.",
   "main": "index.js",
-  "nativescript": {}, 
+  "nativescript": {},
   "scripts": {
     "tsc": "tsc -p . -w",
     "postinstall": "node hooks/merge-www.js"
@@ -20,7 +20,7 @@
   "author": {
     "name": "Shripal Soni",
     "email": "shripalsoni04@gmail.com",
-    "website": "www.shripalsoni.com"	
+    "website": "www.shripalsoni.com"
   },
   "bugs": {
     "url": "https://github.com/shripalsoni04/nativescript-canvas-interface/issues"
