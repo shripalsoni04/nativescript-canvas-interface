@@ -1,6 +1,6 @@
 {
   "name": "nativescript-canvas-interface",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Nativescript Plugin to perform image manipulation using web-view canvas for Android/iOS.",
   "main": "index.js",
   "nativescript": {},
