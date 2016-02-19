@@ -13,7 +13,7 @@ e.g.
 cp -r node_modules/nativescript-canvas-interface/www/ app/www/lib/
 ```
 ## Usage
-For a quick start, you can check this [Demo App](https://github.com/shripalsoni04/nativescript-canvas-interface-demo)
+For a quick start, you can check this [Demo App](https://github.com/shripalsoni04/nativescript-canvas-interface-demo) and [Blog Post](http://shripalsoni.com/blog/nativescript-cross-platform-image-manipulation/)
 
 ### Inside Native App
 
