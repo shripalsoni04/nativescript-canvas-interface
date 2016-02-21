@@ -1,45 +1,45 @@
 {
-    "name": "nativescript-canvas-interface",
-    "version": "0.0.3",
-    "description": "Nativescript Plugin to perform image manipulation using web-view canvas for Android/iOS.",
-    "main": "index.js",
-    "nativescript": {
-        "platforms": {
-            "android": "1.5.0",
-            "ios": "1.5.0"
-        }
-    },
-    "scripts": {
-        "tsc": "tsc -p . -w",
-        "postinstall": "node hooks/merge-www.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/shripalsoni04/nativescript-canvas-interface.git"
-    },
-    "keywords": [
-        "Nativescript",
-        "Webview",
-        "Canvas"
-    ],
-    "author": {
-        "name": "Shripal Soni",
-        "email": "shripalsoni04@gmail.com",
-        "website": "www.shripalsoni.com"
-    },
-    "bugs": {
-        "url": "https://github.com/shripalsoni04/nativescript-canvas-interface/issues"
-    },
-    "license": {
-        "type": "MIT",
-        "url": "https://github.com/shripalsoni04/nativescript-canvas-interface/blob/master/LICENSE"
-    },
-    "homepage": "https://github.com/shripalsoni04/nativescript-canvas-interface",
-    "devDependencies": {
-        "tns-core-modules": "^1.5.2",
-        "typescript": "^1.7.5"
-    },
-    "dependencies": {
-        "nativescript-webview-interface": "^1.1.0"
+  "name": "nativescript-canvas-interface",
+  "version": "1.0.0",
+  "description": "Nativescript Plugin to perform image manipulation using web-view canvas for Android/iOS.",
+  "main": "index.js",
+  "nativescript": {
+    "platforms": {
+      "android": "1.5.0",
+      "ios": "1.5.0"
     }
+  },
+  "scripts": {
+    "tsc": "tsc -p . -w",
+    "postinstall": "node hooks/merge-www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shripalsoni04/nativescript-canvas-interface.git"
+  },
+  "keywords": [
+    "Nativescript",
+    "Webview",
+    "Canvas"
+  ],
+  "author": {
+    "name": "Shripal Soni",
+    "email": "shripalsoni04@gmail.com",
+    "website": "www.shripalsoni.com"
+  },
+  "bugs": {
+    "url": "https://github.com/shripalsoni04/nativescript-canvas-interface/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/shripalsoni04/nativescript-canvas-interface/blob/master/LICENSE"
+  },
+  "homepage": "https://github.com/shripalsoni04/nativescript-canvas-interface",
+  "devDependencies": {
+    "tns-core-modules": "^1.5.2",
+    "typescript": "^1.7.5"
+  },
+  "dependencies": {
+    "nativescript-webview-interface": "^1.1.0"
+  }
 }
